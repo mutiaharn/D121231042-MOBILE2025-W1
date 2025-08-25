@@ -1,0 +1,8 @@
+# Program menampilkan barisan Fibonacci
+
+n = int(input("Masukkan jumlah bilangan Fibonacci: "))
+
+a, b = 0, 1   # dua bilangan awal
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
