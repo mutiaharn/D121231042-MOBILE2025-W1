@@ -1,0 +1,9 @@
+# Program menghitung faktorial
+
+n = int(input("Masukkan bilangan bulat: "))
+
+faktorial = 1
+for i in range(1, n + 1):
+    faktorial *= i
+
+print(f"Faktorial dari {n} adalah {faktorial}")
