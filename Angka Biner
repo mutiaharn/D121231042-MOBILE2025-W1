@@ -1,0 +1,10 @@
+# Program konversi bilangan ke biner
+
+# Input bilangan bulat
+n = int(input("Masukkan bilangan bulat: "))
+
+# Konversi ke biner
+biner = bin(n).replace("0b", "")
+
+# Output
+print(f"Angka biner dari {n} adalah {biner}")
